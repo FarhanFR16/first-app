@@ -7,6 +7,7 @@ public class AddDataNilaiSiswaDto {
 
     private int idNilaiSiswa;
     private int idMataPelajaran;
+    private int idKelas;
     private int idSiswa;
     private int nilai;
 }

@@ -8,6 +8,7 @@ public class DataNilaiSiswaDto {
     private int idNilaiSiswa;
     private int idMataPelajaran;
     private int idSiswa;
+    private int idKelas;
     private String nama;
     private String kelas;
     private String namaMataPelajaran;

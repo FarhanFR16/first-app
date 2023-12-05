@@ -96,6 +96,7 @@ public class DataSiswaService {
             dataNilaiSiswaDto.setIdNilaiSiswa(dataNilai.getId());
             dataNilaiSiswaDto.setIdSiswa(dataNilai.getDataSiswa().getId());
             dataNilaiSiswaDto.setIdMataPelajaran(dataNilai.getMataPelajaran().getId());
+            dataNilaiSiswaDto.setIdKelas(dataNilai.getDataSiswa().getDataKelas().getId());
             dataNilaiSiswaDto.setNama(dataNilai.getDataSiswa().getNama());
             dataNilaiSiswaDto.setNilai(dataNilai.getNilai());
             dataNilaiSiswaDto.setNamaMataPelajaran(dataNilai.getMataPelajaran().getNamaMataPelajaran());
@@ -112,6 +113,7 @@ public class DataSiswaService {
         dataNilaiSiswaDto.setIdNilaiSiswa(dataNilai.getId());
         dataNilaiSiswaDto.setIdSiswa(dataNilai.getDataSiswa().getId());
         dataNilaiSiswaDto.setIdMataPelajaran(dataNilai.getMataPelajaran().getId());
+        dataNilaiSiswaDto.setIdKelas(dataNilai.getDataSiswa().getDataKelas().getId());
         dataNilaiSiswaDto.setNama(dataNilai.getDataSiswa().getNama());
         dataNilaiSiswaDto.setNilai(dataNilai.getNilai());
         dataNilaiSiswaDto.setNamaMataPelajaran(dataNilai.getMataPelajaran().getNamaMataPelajaran());
@@ -128,6 +130,7 @@ public class DataSiswaService {
                 dataNilaiSiswaDto.setIdNilaiSiswa(dataNilai.getId());
                 dataNilaiSiswaDto.setIdMataPelajaran(dataNilai.getMataPelajaran().getId());
                 dataNilaiSiswaDto.setIdSiswa(dataNilai.getDataSiswa().getId());
+                dataNilaiSiswaDto.setIdKelas(dataNilai.getDataSiswa().getDataKelas().getId());
                 dataNilaiSiswaDto.setNama(dataNilai.getDataSiswa().getNama());
                 dataNilaiSiswaDto.setNilai(dataNilai.getNilai());
                 dataNilaiSiswaDto.setNamaMataPelajaran(dataNilai.getMataPelajaran().getNamaMataPelajaran());
@@ -148,6 +151,7 @@ public class DataSiswaService {
                 dataNilaiSiswaDto.setIdNilaiSiswa(dataNilai.getId());
                 dataNilaiSiswaDto.setIdMataPelajaran(dataNilai.getMataPelajaran().getId());
                 dataNilaiSiswaDto.setIdSiswa(dataNilai.getDataSiswa().getId());
+                dataNilaiSiswaDto.setIdKelas(dataNilai.getDataSiswa().getDataKelas().getId());
                 dataNilaiSiswaDto.setNama(dataNilai.getDataSiswa().getNama());
                 dataNilaiSiswaDto.setNilai(dataNilai.getNilai());
                 dataNilaiSiswaDto.setNamaMataPelajaran(dataNilai.getMataPelajaran().getNamaMataPelajaran());
